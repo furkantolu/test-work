@@ -1,0 +1,56 @@
+ 
+$font-stack:    Helvetica Neue, sans-serif;
+$white: #ffffff;
+$light: #dde9e3;
+$dark: #8a8a8a;
+$green: #47bd86;
+$blue: #53b2ff;
+$yellow: #e7d911;
+$red: #ee4e43;
+
+
+body {
+    font: 100% $font-stack;
+    font-weight: 400;
+
+    nav{
+        a{
+            text-decoration: none !important;
+            display: block;
+            color: $dark!important;
+            :hover{
+                text-decoration: none !important;
+                color: $blue !important;
+            }
+        }
+        .container{
+            .nv{
+                a{
+                    i{
+                        color: $blue;
+                        font-size: 24px;
+                        &:hover{
+                            color:$red!important;
+                        }
+                    }
+
+
+                }
+            }
+    
+        }
+
+    }
+    section{
+
+    }
+    footer{
+        .fixed-bottom{
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+        text-align: center;
+        
+    }
+  }
+
